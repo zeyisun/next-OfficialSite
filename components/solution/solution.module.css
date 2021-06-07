@@ -1,0 +1,11 @@
+.Container {
+    width: 1200px;
+    position: relative;
+    margin: 0 auto;
+    padding: 20px;
+    background: #FFF;
+}
+
+.Content {
+    margin-bottom: 40px;
+}
