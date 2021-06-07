@@ -1,0 +1,13 @@
+{
+  "plugins": [
+    ["inline-import", { "extensions": [".css"] }],
+    ["import", { "libraryName": "antd" }],
+    ["module-resolver", {
+      "alias": {
+        "dva": "dva-no-router"
+      }
+    }]
+  ],
+  "presets": ["next/babel"],
+  "ignore": []
+}
