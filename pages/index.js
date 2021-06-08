@@ -3,6 +3,7 @@ import LayoutComponent from '../components/layout'
 import SwiperComponent from '../components/swiper'
 import NewsComponent from '../components/news'
 import SolutionComponent from '../components/solution'
+import CasesComponent from '../components/cases'
 import WithDva from '../utils/store';
 
 import { Layout } from 'antd';
@@ -39,6 +40,7 @@ class HomePage extends React.Component {
                     <Content style={{ background: '#fff', padding: 24, margin: 0, minHeight: 280 }}>
                         <SwiperComponent />
                         <NewsComponent />
+                        <CasesComponent />
                         <SolutionComponent />
                     </Content>
                 </Layout>
